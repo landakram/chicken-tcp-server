@@ -1,0 +1,9 @@
+;;; tcp-server.meta -*- Scheme -*-
+
+((egg "tcp-server.egg")
+ (files "tcp-server.scm" "tcp-server.setup" "tcp-server.release-info" "tcp-server.meta" "tcpservertest.scm")
+ (synopsis "A simple generic multithreaded tcp-server")
+ (category net)
+ (license "BSD")
+ (doc-from-wiki)
+ (author "felix"))
