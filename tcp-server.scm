@@ -32,8 +32,13 @@
 		    tcp-server-get-addresses-procedure
 		    make-tcp-server)
 
-  (import scheme chicken)
-  (use extras tcp srfi-18)
+  (import scheme
+          (chicken base)
+          (chicken tcp)
+          (chicken process)
+          (chicken format)
+          (chicken condition)
+          srfi-18)
 
 ;;; Constants:
 

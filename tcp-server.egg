@@ -1,0 +1,8 @@
+;;; tcp-server.egg -*- Scheme -*-
+
+((synopsis "A simple generic multithreaded tcp-server")
+ (category net)
+ (license "BSD")
+ (author "felix")
+ (dependencies srfi-18)
+ (components (extension tcp-server)))
